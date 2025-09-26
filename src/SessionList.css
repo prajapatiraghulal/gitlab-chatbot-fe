@@ -1,0 +1,41 @@
+.session-list {
+    width: 200px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.session-list h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.session-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.session-list li {
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.session-list li.active {
+    background-color: #e0e0e0;
+}
+
+.session-list button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.session-list button:hover {
+    background-color: #367c39;
+}

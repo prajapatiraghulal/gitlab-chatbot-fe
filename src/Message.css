@@ -1,0 +1,34 @@
+.message {
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.user {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bot {
+    background-color: #ECE5DD;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-content p {
+    margin: 0;
+}
+
+.message-content small {
+    font-size: 0.8em;
+    color: #888;
+    align-self: flex-end;
+}

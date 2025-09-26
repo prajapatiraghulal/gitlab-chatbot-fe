@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import ChatSession from './ChatSession';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
 
 function App() {
   const [messages, setMessages] = useState([]);
